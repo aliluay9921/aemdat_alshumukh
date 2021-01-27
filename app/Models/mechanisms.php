@@ -9,6 +9,6 @@ class mechanisms extends Model
 {
     use HasFactory;
     protected $fillable = [
-        'pumping_concret', 'pum_station', 'trailer_qatra', 'transfer_concret'
+        'name', 'count'
     ];
 }

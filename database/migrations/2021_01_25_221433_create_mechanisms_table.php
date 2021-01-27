@@ -15,10 +15,8 @@ class CreateMechanismsTable extends Migration
     {
         Schema::create('mechanisms', function (Blueprint $table) {
             $table->id();
-            $table->integer('pumping_concret');
-            $table->integer('pum_station');
-            $table->integer('trailer_qatra');
-            $table->integer('transfer_concret');
+            $table->string('name');
+            $table->integer('count');
             $table->timestamps();
         });
     }

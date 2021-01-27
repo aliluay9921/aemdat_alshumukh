@@ -10,6 +10,6 @@ class staf extends Model
     use HasFactory;
     protected $fillable = [
 
-        'enginerrs', 'employees', 'technicians', 'drivers'
+        'name', 'count'
     ];
 }

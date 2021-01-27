@@ -14,12 +14,32 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+
 
 Auth::routes();
-route::get('/admin', [App\Http\Controllers\adminController::class, 'index'])->name('admin');
-route::post('/admin', [App\Http\Controllers\adminController::class, 'store'])->name('add.project');
+route::middleware(['auth'])->group(function () {
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+    // route::get('/admin', [App\Http\Controllers\adminController::class, 'getinfo'])->name('getinfo');
+
+
+
+    route::get('/admin', [App\Http\Controllers\adminController::class, 'index'])->name('admin');
+
+    route::get('project', [App\Http\Controllers\adminController::class, 'get'])->name('project');
+    route::post('project', [App\Http\Controllers\adminController::class, 'store'])->name('add.project');
+    route::put('project', [App\Http\Controllers\adminController::class, 'update'])->name('update.project');
+    route::post('delete', [App\Http\Controllers\adminController::class, 'delete'])->name('delete');
+
+    route::get('project-not', [App\Http\Controllers\adminController::class, 'fetch'])->name('projectnot');
+    route::get('project-completed/{id}', [App\Http\Controllers\adminController::class, 'completed'])->name('completed.project');
+
+
+    route::get('get-staf-machen', [App\Http\Controllers\adminController::class, 'staf'])->name('add.staf');
+    route::put('staf', [App\Http\Controllers\adminController::class, 'edit'])->name('edit.staf');
+    route::put('machin', [App\Http\Controllers\adminController::class, 'machin'])->name('edit.machin');
+});
+
+
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'home'])->name('home');
+Route::get('/index', [App\Http\Controllers\HomeController::class, 'index'])->name('index');
