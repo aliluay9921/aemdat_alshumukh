@@ -1,9 +1,6 @@
 @extends('admin.incloud.layout')
 
 @section('content')
-<section class="content">
-    <div class="container-fluid">
-      <!-- Info boxes -->
 
 <div class="container-fluid">
     <div class="row">

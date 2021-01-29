@@ -11,21 +11,21 @@
     <div class="container">
         <div class="top-header d-none d-sm-flex justify-content-between align-items-center">
             <div class="contact">
-                <a href="tel:+1234567890" class="tel"><i class="fa fa-phone" aria-hidden="true"></i>+1234567890</a>
-                <a href="mailto:info@yourmail.com"><i class="fa fa-envelope"
-                        aria-hidden="true"></i>info@yourmail.com</a>
+                <a href="tel:+9647705333603" class="tel"><i class="fa fa-phone" aria-hidden="true"></i>+9647705333603</a>
+                <a href="mailto:Aemdatalshumukh@gmail.com"><i class="fa fa-envelope"
+                        aria-hidden="true"></i>Aemdatalshumukh@gmail.com</a>
             </div>
             <nav class="d-flex aic">
 
                 <ul class="nav sociaal d-none d-md-flex">
-                    <li><a href="https://www.facebook.com/fh5co" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <li><a href="https://www.facebook.com/%D8%B4%D8%B1%D9%83%D8%A9-%D8%A7%D8%B9%D9%85%D8%AF%D8%A9-%D8%A7%D9%84%D8%B4%D9%85%D9%88%D8%AE-%D9%84%D9%84%D9%85%D9%82%D8%A7%D9%88%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D8%AD%D8%AF%D9%88%D8%AF%D8%A9-103643841272369/" target="_blank"><i class="fa fa-facebook"></i></a>
                     </li>
-                    <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                    <li><a href="https://www.instagram.com/aemdatalshumukh/?igshid=dqnyqkjcjkiz"><i class="fa fa-instagram"></i></a></li>
                 </ul>
             </nav>
         </div>
         <nav class="navbar navbar-expand-md navbar-light">
-            <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt="Multipurpose"></a>
+
             <div class="group d-flex align-items-center">
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -63,12 +63,12 @@
                             <div class="single-slide">
                                 <h1 data-aos="fade-right" data-aos-delay="200">شركة أعمدة الشموخ<br>
                                 </h1>
-                                <p data-aos="fade-right" data-aos-delay="600">للمقاولات العامة المحدودة.
+                                <p data-aos="fade-right" data-aos-delay="600">للمقاولات العامة محدودة المسؤولية.
                                 </p>
+                                <a data-aos="fade-right" data-aos-delay="900" href="tel:+9647511119970"
+                                    class="btn btn-primary">9647511119970+</a>
                                 <a data-aos="fade-right" data-aos-delay="900" href="#"
-                                    class="btn btn-primary">07812157137</a>
-                                <a data-aos="fade-right" data-aos-delay="900" href="#"
-                                    class="btn btn-primary">07812157137</a>
+                                    class="btn btn-primary">9647711119970+</a>
                             </div>
                         </div>
                         <div class="swiper-slide slide-content d-flex align-items-center">
@@ -78,9 +78,9 @@
                                 <p data-aos="fade-right" data-aos-delay="600">For General Contracting Ltd.
                                 </p>
                                 <a data-aos="fade-right" data-aos-delay="900" href="#"
-                                    class="btn btn-primary">07812157137</a>
+                                    class="btn btn-primary">+9647511119970</a>
                                 <a data-aos="fade-right" data-aos-delay="900" href="#"
-                                    class="btn btn-primary">07812157137</a>
+                                    class="btn btn-primary">+9647711119970</a>
                             </div>
                         </div>
                     </div>
@@ -175,134 +175,16 @@
     </div>
 </section>
 <!-- Pricing End -->
-
-
 <div id="content-slider">
-    <div class="wrap-slider">
-
-        <h1 class="main-title">المشاريع المنجزة</h1>
-
-        <!-- ===== Thumbnail ControlNav ======= -->
-        <input type="radio" id="a-1" name="a">
-        <input type="radio" id="a-2" name="a">
-        <input type="radio" id="a-3" name="a">
-        <input type="radio" id="a-4" name="a">
-
-        <nav id="main">
-            <label for="a-1" class="first"></label>
-            <label for="a-2" class="first"></label>
-            <label for="a-3" class="first"></label>
-            <label for="a-4" class="first"></label>
-        </nav>
-
-        <!-- =================================== -->
-        <nav id="control">
-            <label for="a-1"></label>
-            <label for="a-2"></label>
-            <label for="a-3"></label>
-            <label for="a-4"></label>
-        </nav>
-        <!-- =================================== -->
-
-        <!-- 	IMAGE NAVIGATION pic -->
-
-      
-        <span id="b-1" class="th" tabindex="10">
-            <img src="https://github.com/lime7/slider/blob/master/images/pic-1.png?raw=true" alt="" id="p-1">
-            <div class="title-1">
-                <h1>PAK FA T-50</h1>
-                <p>Stealth multirole fighter</p>
-                <a href="">عرض المزيد</a>
-            </div>
-        </span>
-
-        <span id="b-2" class="th" tabindex="11">
-            <img src="https://github.com/lime7/slider/blob/master/images/pic-10.png?raw=true" alt="" id="p-2">
-            <div class="title-2">
-                <h1>Kamov Ka-50 "Black Shark"</h1>
-                <p>Attack helicopter</p>
-                <a href="">عرض المزيد</a>
-            </div>
-        </span>
-
-        <span id="b-3" class="th" tabindex="12">
-            <img src="https://github.com/lime7/slider/blob/master/images/pic-3.png?raw=true" alt="" id="p-3">
-            <div class="title-3">
-                <h1>Sukhoi Su-27</h1>
-                <p>Air superiority fighter</p>
-                <a href="">عرض المزيد</a>
-            </div>
-        </span>
-
-        <span id="b-4" class="th" tabindex="13">
-            <img src="https://github.com/lime7/slider/blob/master/images/pic-4.png?raw=true" alt="" id="p-4">
-            <div class="title-4">
-                <h1>mil mi-28</h1>
-                <p>Attack helicopter</p>
-                <a href="">عرض المزيد</a>
-            </div>
-        </span>
-
-        <!-- ===== IMages ======= -->
-
-        <div class="slider">
-            <div class="inset">
-
-                <figure>
-                    <figcaption class="title-1">
-                        <h1>بناء</h1>
-                        <p>مدرسة</p>
-                        <a href="">عرض المزيد</a>
-                    </figcaption>
-                    <img src="https://github.com/lime7/slider/blob/master/images/1.png?raw=true" alt="" id="i-1"
-                        class="f">
-                </figure>
-
-                <figure>
-                    <figcaption class="title-2">
-                        <h1>بناء</h1>
-                        <p>مدرسة</p>
-                        <a href="">عرض المزيد</a>
-                    </figcaption>
-                    <img src="https://github.com/lime7/slider/blob/master/images/10.png?raw=true" alt="" id="i-2"
-                        class="f">
-                </figure>
-
-                <figure>
-                    <figcaption class="title-3">
-                        <h1>بناء</h1>
-                        <p>مدرسة</p>
-                        <a href="">عرض المزيد</a>
-                    </figcaption>
-                    <img src="https://github.com/lime7/slider/blob/master/images/3.png?raw=true" alt="" id="i-3"
-                        class="f">
-                </figure>
-
-                <figure>
-                    <figcaption class="title-4">
-                        <h1>بناء</h1>
-                        <p>مدرسة</p>
-                        <a href="">عرض المزيد</a>
-                    </figcaption>
-                    <img src="https://github.com/lime7/slider/blob/master/images/4.png?raw=true" alt="" id="i-4"
-                        class="f">
-                </figure>
-
-
-                <figure>
-                    <figcaption class="title-5">
-                        <h1>بناء</h1>
-                        <p>مدرسة</p>
-                        <a href="">عرض المزيد</a>
-                    </figcaption>
-                    <img src="https://github.com/lime7/slider/blob/master/images/1.png?raw=true" alt="" id="i-5"
-                        class="f">
-                </figure>
+        <div class="wrap-slider">
+            <h1 class="main-title">المشاريع المنجزة</h1>
+            <div id="slider">
+                @foreach ( $projectcompletelast as $item )
+            <img src="/image/{{ $item->image }}" alt="{{ $item->desc }}" data-title="{{ $item->title }}" data-url="#">
+            @endforeach
             </div>
         </div>
-
     </div>
-</div>
 <!-- end-sltder -->
 <section>
     <div class="box">
@@ -313,13 +195,14 @@
             <span>المشاريع المنجزة</span>
         </div>
     </div>
-    <div class="btns-buld">
-        @foreach ($projectcomplete as  $item)
-        <a data-aos="fade-right" data-aos-delay="900" href="#" class="btns btn-primary">{{ $item->title }}</a>
+        <div class="bouttn-bulidinng">
+             @foreach ($projectcomplete as  $item)
+            <button class="login-btn">{{ $item->title }}</button>
+             @endforeach
+        </div>
 
-        @endforeach
 
-    </div>
+
 </section>
 <section>
     <div class="box">
@@ -481,13 +364,14 @@
             <span>منشأة خرسانية جاهزة</span>
         </div>
     </div>
-    <div class="btns-buld">
-        <a data-aos="fade-right" data-aos-delay="900" href="#" class="btns btn-primary">معمل الغزالية
+  <div class="bouttn-bulidinng">
+            <button class="login-btn">العامرية-قرب محطة الوقود</button>
+            <button class="login-btn">العامرية-مدخل نادي الفروسية</button>
+            <button class="login-btn">بغداد-الدورة-قرب جسر الزيوت</button>
 
-            السعة 140 م 3 / ساعة</a>
 
+        </div>
 
-    </div>
 </section>
 <!-- Call To Action 2 Start -->
 <section id="contact" class="section-bg wow fadeInUp">
@@ -521,12 +405,11 @@
                 <div class="contact-email">
                     <i class="ion-ios-email-outline"></i>
                     <h3>Email</h3>
-                    <p><a href="mailto:info@example.com">info@example.com</a></p>
+                    <p> <a href="mailto:Aemdatalshumukh@gmail.com"><i class="fa fa-envelope"
+                        aria-hidden="true"></i>Aemdatalshumukh@gmail.com</a></p>
                 </div>
             </div>
-
         </div>
-
         <div class="mapouter">
             <div class="gmap_canvas"><iframe width="334" height="307" id="gmap_canvas"
                     src="https://maps.google.com/maps?q=%D8%B4%D8%B1%D9%83%D8%A9%20%D8%A7%D8%B9%D9%85%D8%AF%D8%A9%20%D8%A7%D9%84%D8%B4%D9%85%D9%88%D8%AE&t=&z=17&ie=UTF8&iwloc=&output=embed"
@@ -610,5 +493,124 @@
         speed: 1000,
         speedAsDuration: true
     });
+</script>
+<script>
+    let slider = document.querySelector("#slider");
+let slides = document.querySelectorAll("#slider img");
+let currentSlide = 0;
+let dots;
+let autoSlide;
+let autoSlidePlay = true;
+
+addControls();
+addCaptionArea();
+slideTo(currentSlide);
+resetAutoSlide();
+
+function resetAutoSlide(){
+    if(autoSlidePlay){
+        clearInterval(autoSlide);
+        autoSlide = setInterval(() => { slideTo(increaseSlide(1)) }, 5000);
+    }
+}
+
+// function startPause(){
+//     let btn = document.getElementById('slider_startPause');
+//     if (autoSlidePlay){
+//         autoSlidePlay = false;
+//         btn.className = 'fa fa-play-circle'
+//         clearInterval(autoSlide);
+//     } else {
+//         autoSlidePlay = true;
+//         btn.className = 'fa fa-pause-circle'
+//         resetAutoSlide()
+//     }
+// }
+
+function addControls(){
+    //arrow Left
+    let arrowLeft = document.createElement('div');
+    arrowLeft.id = 'slider_arrow_left';
+    arrowLeft.innerHTML = '<i class="fa fa-chevron-left" aria-hidden="true"></i>';
+    arrowLeft.title = 'slide ' + (increaseSlide(-1) + 1);
+    arrowLeft.addEventListener("click", ()=> {
+        slideTo(increaseSlide(-1));
+        resetAutoSlide();
+    });
+    slider.append(arrowLeft);
+    //arrow Right
+    let arrowRight = document.createElement("div");
+    arrowRight.id = 'slider_arrow_right';
+    arrowRight.innerHTML = '<i class="fa fa-chevron-right" aria-hidden="true"></i>';
+    arrowRight.title = 'slide ' + (increaseSlide(1) + 1);
+    arrowRight.addEventListener("click", ()=>{
+        slideTo(increaseSlide(1));
+        resetAutoSlide();
+    })
+    slider.append(arrowRight);
+    //pause Button
+    // let startPauseBtn = document.createElement("i");
+    // startPauseBtn.id = 'slider_startPause';
+    // startPauseBtn.className = 'far fa-pause-circle';
+    // startPauseBtn.addEventListener("click", () => { startPause() });
+    // slider.append(startPauseBtn);
+    //indicator dots
+    let indicators = document.createElement("div");
+    indicators.id= 'slider_indicators';
+    for(i = 0; i<slides.length; i++){
+        let nr = i;
+        let dot = document.createElement("i");
+        dot.className = "fa fa-circle-o"
+        dot.addEventListener("click", ()=> {
+            slideTo(nr);
+            resetAutoSlide();
+        });
+        indicators.append(dot);
+    }
+    slider.append(indicators);
+    dots = indicators.children
+}
+
+function increaseSlide(nr){
+    if(nr>0 && currentSlide + nr >= slides.length) return 0
+    else if(nr<0 && currentSlide + nr < 0) return slides.length -1
+    else return currentSlide + nr
+}
+
+function slideTo(nr){
+    let from  = currentSlide *-100 + '%';
+    let to = nr * -100 + '%';
+    slides[0].animate(
+        { marginLeft: [from, to] },
+        { duration: 500, easing: "ease-in-out", iterations: 1, fill: "both" });
+    highlightIndicator(nr);
+    currentSlide = nr;
+    addCaptions();
+}
+
+function highlightIndicator(nr){
+    dots[currentSlide].className = "far fa-circle";
+    dots[nr].className = "far fa-dot-circle"
+}
+
+function addCaptionArea(){
+    let caption = document.createElement("a");
+    caption.id = "slider_caption";
+    let captionTitle = document.createElement("h1");
+    let captionDesc = document.createElement("p");
+    caption.append(captionTitle);
+    caption.append(captionDesc);
+    slider.append(caption);
+}
+
+function addCaptions(){
+    let link = document.getElementById('slider_caption');
+    link.href = slides[currentSlide].dataset.url
+    link.title = slides[currentSlide].dataset.title + ': read more'
+    let title = document.querySelector("#slider_caption h1");
+    title.innerHTML = slides[currentSlide].dataset.title;
+    let descr = document.querySelector("#slider_caption p");
+    descr.innerHTML = slides[currentSlide].alt;
+}
 </script>
 @endsection

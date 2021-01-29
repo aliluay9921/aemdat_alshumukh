@@ -2,8 +2,8 @@
 @extends('admin.incloud.layout')
 @section('content')
 
-<section class="content">
-    <div class="container-fluid">
+          <section class="content">
+            <div class="container-fluid">
       <!-- Info boxes -->
       <div class="row">
         <div class="col-12 col-sm-6 col-md-3">
@@ -85,11 +85,11 @@
 
         <div class="row">
             <!-- Left col -->
-            <div class="col-md-8 mt-5 ml-5 ">
+            <div class="col-md-6 col-sm-6 col-lg-6 col-xs-6 mt-5 ml-5 ">
               <!-- MAP & BOX PANE -->
               <div class="alert alert-danger" style="display:none"></div>
               <div class="alert alert-success text-center" id="successmsg" role="alert"  style="display:none">
-                  <h3> save data success</h3>
+                  <h3> تم الحفظ بنجاح </h3>
               </div>
 
 
@@ -123,7 +123,7 @@
                           <div class="form-group">
                               <label for="exampleFormControlSelect1">نوع المشروع</label>
                               <select name="select" class="form-control" id="exampleFormControlSelect1">
-                                <option value="">نوع المشروع</option>
+                                <option value="نوع المشروع">نوع المشروع</option>
                                 <option value="1">مشروع منجز</option>
                                 <option value="0">مشروع قيد الانجاز</option>
                               </select>
@@ -131,30 +131,24 @@
                             <button  class="btn btn-sm btn-info float-left"type="submit" >اضافة مشروع</button>
                         </form>
                   </div>
-                  <!-- /.table-responsive -->
                 </div>
-                <!-- /.card-body -->
-
-                <!-- /.card-footer -->
-              </div>
-              <!-- /.card -->
+           </div>
             </div>
 
 
-              <!-- /.col -->
-            <!-- /.col -->
+
               </div>
-            <!-- /.col -->
-          </div>
-    </div>
 
 
-  <!-- /.content-wrapper -->
+
+
 
 @endsection
 
 
 @section('script')
+
+
 <script type="text/javascript">
     $(document).ready(function(){
         $('#formadd').on('submit',function(e){
@@ -186,16 +180,21 @@
                            setTimeout(function(){
                           $('#successmsg').hide();
                           },2000);
+
+                        if($("#exampleFormControlSelect1").val()== 1){
                           var getdata=document.getElementById('getdata').innerHTML;
-                          var x=getdata++;
-                           $("#getdata").text(x);
-                           var notproject=document.getElementById('notproject').innerHTML;
-                           var y=notproject++;
-                           $("#notproject").text(y);
+                           $("#getdata").text(++getdata);
+                        }
+                        else{
+                        var notproject=document.getElementById('notproject').innerHTML;
+
+                           $("#notproject").text(++notproject);
+                        }
+
                             $("#title").val("");
                              $("#desc").val("");
                              $("#image").val("");
-                             $("#select").val('نوع المشروع');
+                             $("#exampleFormControlSelect1").val('نوع المشروع');
                      }
              },
             });

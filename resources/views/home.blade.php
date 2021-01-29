@@ -10,6 +10,8 @@
   <!-- Header Start -->
   <section>
     <header class="intro">
+        <a class="navbar-brand" href="#"><img src="/assets/images/IMG_4293.PNG" alt="Multipurpose"></a>
+
       <div class="intro-slideshow">
         <img
           src="https://www.dropbox.com/s/h8rds5ozk0u3s2f/coder.jpg?raw=1"
@@ -27,7 +29,7 @@
       </div>
       <div class="intro-header">
         <h1>شركة أعمدة الشموخ</h1>
-        <p>للمقاولات العامة المحدودة</p>
+        <p>للمقاولات العامة محدودة المسؤولية</p>
       </div>
       <div class="middle">
         <a href="{{ route('index') }}" class="btnr btn1">visit</a>

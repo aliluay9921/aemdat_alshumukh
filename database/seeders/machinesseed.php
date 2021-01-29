@@ -15,19 +15,19 @@ class machinesseed extends Seeder
     public function run()
     {
         mechanisms::create([
-            'name' => 'pumping_concret',
+            'name' => 'بم كونكريت',
             'count'     => 50,
         ]);
         mechanisms::create([
-            'name' => 'pum_station',
+            'name' => 'بم ستيشن',
             'count'     => 30,
         ]);
         mechanisms::create([
-            'name' => 'trailer_qatra',
+            'name' => 'قاطرة مقطورة',
             'count'     => 90,
         ]);
         mechanisms::create([
-            'name' => 'transfer_concret',
+            'name' => 'ناقلة كونكريت',
             'count' => 20,
         ]);
     }

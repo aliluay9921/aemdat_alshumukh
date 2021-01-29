@@ -15,22 +15,22 @@ class stafseed extends Seeder
     public function run()
     {
         staf::create([
-            'name' => 'enginerrs',
+            'name' => 'مهندسين ',
             'count'  => 200,
 
         ]);
         staf::create([
-            'name' => 'employees',
+            'name' => 'الموضفين',
             'count'  => 300,
 
         ]);
         staf::create([
-            'name' => 'technicians',
+            'name' => 'تقنين',
             'count'  => 50,
 
         ]);
         staf::create([
-            'name' => 'drivers',
+            'name' => 'سائقين',
             'count'  => 200,
 
         ]);

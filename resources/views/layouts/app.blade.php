@@ -53,12 +53,12 @@
                   <nav class="d-flex aic">
                     <ul class="nav sociaal d-md-flex">
                       <li>
-                        <a href="https://www.facebook.com/fh5co" target="_blank"
+                        <a href="https://www.facebook.com/%D8%B4%D8%B1%D9%83%D8%A9-%D8%A7%D8%B9%D9%85%D8%AF%D8%A9-%D8%A7%D9%84%D8%B4%D9%85%D9%88%D8%AE-%D9%84%D9%84%D9%85%D9%82%D8%A7%D9%88%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D8%AD%D8%AF%D9%88%D8%AF%D8%A9-103643841272369/" target="_blank"
                           ><i class="fa fa-facebook"></i
                         ></a>
                       </li>
                       <li>
-                        <a href="#"><i class="fa fa-envelope"></i></a>
+                        <a href="https://www.instagram.com/aemdatalshumukh/?igshid=dqnyqkjcjkiz"><i class="fa fa-instagram"></i></a>
                       </li>
                     </ul>
                   </nav>

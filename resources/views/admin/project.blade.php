@@ -1,14 +1,12 @@
 @extends('admin.incloud.layout')
 
 @section('content')
-<section class="content">
-    <div class="container-fluid">
-      <!-- Info boxes -->
-   
+
+
 <div class="container-fluid">
     <div class="row">
 
-    <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+    <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 ml-5">
 
         <div class="card mt-3">
             @if (Session::has('errors'))
@@ -105,9 +103,6 @@
     </div>
   </div>
 
-
-
-
 @section('script')
 <script>
     $('#edit').on('show.bs.modal',function(event){
@@ -122,11 +117,6 @@
         modal.find('.modal-body  #id').val(id)
     })
 </script>
-
-
-
-
-
 <script>
     $(document).on('click','.delete_btn', function (e) {
         e.preventDefault();
@@ -134,8 +124,6 @@
           var x= window.confirm('هل انت متأكد');
           if(x == true)
           {
-
-
         $.ajax({
             type: 'post',
              url: "{{route('delete')}}",
