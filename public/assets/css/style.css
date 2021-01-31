@@ -174,7 +174,7 @@ form input.btn-primary:hover, form button.btn-primary:hover {
 ------------------------------------*/
 
 .hero {
-    background: url("../images/hero-bg.jpg") no-repeat center;
+    background: url("../images/sl1.jpg") no-repeat center;
     background-size: cover;
     overflow: hidden;
     position: relative;
@@ -310,6 +310,10 @@ form input.btn-primary:hover, form button.btn-primary:hover {
     z-index: 9;
 }
 
+.arr-left:focus {
+    outline: none;
+}
+
 .hero .arr-left:hover, .hero .arr-right:hover {
     cursor: pointer;
 }
@@ -438,6 +442,10 @@ form input.btn-primary:hover, form button.btn-primary:hover {
     margin: 30px;
 }
 
+.login-btn:focus {
+    outline: none;
+}
+
 @media screen and (max-width: 770px) {
     .bouttn-bulidinng {
         display: flex;
@@ -559,6 +567,7 @@ form input.btn-primary:hover, form button.btn-primary:hover {
 
 #slider_caption p {
     margin: 0;
+    text-align: center;
     /* display: block; */
 }
 
@@ -1204,6 +1213,7 @@ h1, h3 {
 
 .btnr:hover {
     opacity: 0.9;
+    text-decoration: none;
 }
 
 .btnr:focus {
@@ -1468,7 +1478,7 @@ h1, h3 {
 /*maindiv styling*/
 
 .maindiv {
-    margin: 4rem;
+    /* margin: 4rem; */
     background: white;
     padding: 2rem;
     border-radius: 1rem;
@@ -1502,8 +1512,11 @@ h1, h3 {
 
 /*styling the each card*/
 
+.divgroup {
+    display: flex;
+}
+
 .eachdiv {
-    display: inline-block;
     width: 23.5%;
     background: white;
     box-shadow: 1px 2px 10px #33333352;
@@ -1542,6 +1555,7 @@ h1, h3 {
     font-size: 0.8rem;
     color: #000000;
     margin-bottom: 0;
+    font-weight: bold;
 }
 
 .footer p {
@@ -1562,6 +1576,7 @@ For medium screen devices*/
 @media only screen and (max-width: 1000px) {
     .maindiv {
         margin: 3rem;
+        display: flex;
     }
     .eachdiv {
         width: 48%;
@@ -1574,6 +1589,7 @@ For small devices*/
 @media only screen and (max-width: 600px) {
     .maindiv {
         margin: 2rem;
+        display: flex;
     }
     .eachdiv {
         width: 100%;
@@ -1767,4 +1783,24 @@ span {
 
 .roww {
     direction: rtl;
+}
+
+@media screen and (max-width: 770px) {
+    .box .inner {
+        margin-top: 100px;
+    }
+    #content-slider .wrap-slider {
+        margin-bottom: 80px;
+    }
+    .btns-buld>a {
+        padding-left: 29px;
+    }
+    .adreess>.btns-buld>a {
+        width: 60%;
+        font-size: 15px;
+    }
+    .divgroup {
+        display: flex;
+        flex-direction: column;
+    }
 }

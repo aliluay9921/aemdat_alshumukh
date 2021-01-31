@@ -92,13 +92,14 @@
                     <label for="exampleInputPassword1">تاريخ الاضافة </label>
                     <input type="date" name="created_at" id="created_at" class="form-control" id="exampleInputPassword1" placeholder="وصف">
                   </div>
+                    <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">غلق</button>
+                   <button type="submit" class="btn btn-primary">حفظ التعديلات </button>
+         </div>
+             </form>
 
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">غلق</button>
-          <button type="submit" class="btn btn-primary">حفظ التعديلات </button>
-        </div>
-    </form>
+
       </div>
     </div>
   </div>

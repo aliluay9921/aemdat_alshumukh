@@ -24,7 +24,6 @@ route::middleware(['auth'])->group(function () {
 
 
     route::get('/admin', [App\Http\Controllers\adminController::class, 'index'])->name('admin');
-
     route::get('project', [App\Http\Controllers\adminController::class, 'get'])->name('project');
     route::post('project', [App\Http\Controllers\adminController::class, 'store'])->name('add.project');
     route::put('project', [App\Http\Controllers\adminController::class, 'update'])->name('update.project');
@@ -41,5 +40,5 @@ route::middleware(['auth'])->group(function () {
 
 
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'home'])->name('home');
+Route::get('/', [App\Http\Controllers\HomeController::class, 'home'])->name('home');
 Route::get('/index', [App\Http\Controllers\HomeController::class, 'index'])->name('index');
